@@ -11,6 +11,7 @@ public class Main {
         if (true){
             System.out.println("true!");
             System.out.println(x);
+            System.out.println(i);
         }
 
         for (int i = 0; i < 10; i++) {

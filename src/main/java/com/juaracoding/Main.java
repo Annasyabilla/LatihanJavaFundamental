@@ -4,6 +4,8 @@ package com.juaracoding;
 public class Main {
     //standarisasi nama class DepannyaKapital
     public static void main(String[] args) {
+        //x berperan sebagai nama variable
+        // 100 berperan sebagai value dari variable tersebut
         int x = 100;
 
         System.out.println("Hello world!");
@@ -11,7 +13,7 @@ public class Main {
         if (true){
             System.out.println("true!");
             System.out.println(x);
-            System.out.println(i);
+            System.out.println();
         }
 
         for (int i = 0; i < 10; i++) {

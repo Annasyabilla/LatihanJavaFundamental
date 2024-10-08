@@ -43,6 +43,7 @@ public class CobaDiscount {
                 discount = 0.02; ///2%
         }
 
+
         System.out.println("Discount = "+discount*100);
         System.out.println("Total bayar = Rp. "+(totalAmount-totalAmount*discount));
 

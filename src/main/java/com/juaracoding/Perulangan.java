@@ -73,7 +73,7 @@ public class Perulangan {
          */
 
         //pola segitiga siku
-        for (int i = 0; i < intSisi; i++) {
+        for (int i = 0; i < intSisi; i++) {;
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
                 /**Loop ini mengontrol jumlah bintang yang akan dicetak pada setiap baris.
@@ -139,6 +139,10 @@ public class Perulangan {
             System.out.println(angka);
             if(angka == 0) break;
         }
+
+        //memanggil nama class dan nama method pada class lain yang public
+        Methods.drawKotak(10);
+        //kalau private gak bisa dipanggil
 
 
     }
